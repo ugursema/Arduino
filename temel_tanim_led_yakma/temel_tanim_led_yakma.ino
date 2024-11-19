@@ -60,18 +60,18 @@ void loop() {
   digitalWrite(4, LOW);
   digitalWrite(5, LOW);
   //delay bekleme fonk ms cinsinden yazılır
-  delay(4000) //4 sn bekle
+  delay(4000); //4 sn bekle
 
 
   //4. pin yansın sadece 5 saniye sonra sönsün
   digitalWrite(3, LOW);
   digitalWrite(4, HIGH);
   digitalWrite(5, LOW);
-  delay(5000) //5 sn bekle
+  delay(5000); //5 sn bekle
 
   //5. pin yansın sadece 5 saniye sonra sönsün
   digitalWrite(3, LOW);
   digitalWrite(4, LOW);
   digitalWrite(5, HIGH);
-  delay(3000) //3 sn bekle
+  delay(3000); //3 sn bekle
 } 
